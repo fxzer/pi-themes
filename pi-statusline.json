@@ -1,5 +1,13 @@
 {
   "palettePreset": "custom",
+  "segments": [
+    "model",
+    "thinking",
+    "cwd",
+    "branch",
+    "tools",
+    "context"
+  ],
   "segmentText": {
     "provider": { "prefix": "", "suffix": "" },
     "model": {
