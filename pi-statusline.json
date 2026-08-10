@@ -1,5 +1,29 @@
 {
   "palettePreset": "custom",
+  "segmentText": {
+    "provider": { "prefix": "", "suffix": "" },
+    "model": {
+      "prefix": "",
+      "suffix": "",
+      "truncationLength": 36,
+      "truncationSymbol": "…",
+      "truncationDirection": "start"
+    },
+    "thinking": { "prefix": "", "suffix": "" },
+    "cwd": { "prefix": "", "suffix": "" },
+    "branch": { "prefix": "", "suffix": "" },
+    "context": { "prefix": "ctx ", "suffix": "" },
+    "tokens": { "prefix": "", "suffix": "" },
+    "cache": { "prefix": "", "suffix": "" },
+    "cost": { "prefix": "$", "suffix": "" },
+    "time": { "prefix": "", "suffix": "" },
+    "turn": { "prefix": "#", "suffix": "" }
+  },
+  "extensionStatusIcons": {
+    "chrome-devtools": "",
+    "lsp": "",
+    "subagents": ""
+  },
   "palette": {
     "brand": { "fg": "#0b1712", "bg": "#52c892" },
     "provider": { "fg": "#0b1712", "bg": "#52c892" },
