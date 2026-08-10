@@ -46,6 +46,18 @@ pi install npm:pi-system-theme
 }
 ```
 
+## 状态栏配色
+
+配合 [pi-statusline](https://www.npmjs.com/package/@narumitw/pi-statusline) 扩展，
+`pi-statusline.json` 提供一套与主题同源的绿色渐变调色板。
+
+```bash
+pi install npm:@narumitw/pi-statusline
+```
+
+安装后将本仓库的 `pi-statusline.json` 复制到 `~/.pi/agent/pi-statusline.json`，
+或直接使用其中的 `palette` 配置，重启 pi 生效。
+
 ## 配色说明
 
 - 深色版：背景 `#121212`，主色绿 `#52c892`，正文 `#dbd7ca`

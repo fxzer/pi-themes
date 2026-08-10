@@ -1,0 +1,18 @@
+{
+  "palettePreset": "custom",
+  "palette": {
+    "brand": { "fg": "#0b1712", "bg": "#52c892" },
+    "provider": { "fg": "#0b1712", "bg": "#52c892" },
+    "model": { "fg": "#0b1712", "bg": "#52c892" },
+    "thinking": { "fg": "#0b1712", "bg": "#3ea97a" },
+    "cwd": { "fg": "#e5f2ea", "bg": "#2e6b4f" },
+    "branch": { "fg": "#c9ecd8", "bg": "#23523c" },
+    "tools": { "fg": "#b6e4cb", "bg": "#1c4230" },
+    "context": { "fg": "#b6e4cb", "bg": "#1c4230" },
+    "tokens": { "fg": "#a7dbbf", "bg": "#183728" },
+    "cache": { "fg": "#a7dbbf", "bg": "#183728" },
+    "cost": { "fg": "#9ad2b4", "bg": "#142d20" },
+    "time": { "fg": "#9ad2b4", "bg": "#142d20" },
+    "turn": { "fg": "#9ad2b4", "bg": "#142d20" }
+  }
+}
