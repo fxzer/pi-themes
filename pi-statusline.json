@@ -1,5 +1,6 @@
 {
   "palettePreset": "custom",
+  "separator": "powerline",
   "segments": [
     "model",
     "thinking",
