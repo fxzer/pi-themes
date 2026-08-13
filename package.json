@@ -1,0 +1,16 @@
+{
+  "name": "pi-vitesse-custom-theme",
+  "version": "1.0.0",
+  "description": "Vitesse Custom color themes (dark/light) for the Pi coding agent",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi-theme",
+    "vitesse"
+  ],
+  "pi": {
+    "themes": [
+      "./themes"
+    ]
+  }
+}

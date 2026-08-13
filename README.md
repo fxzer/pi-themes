@@ -1,27 +1,29 @@
-# pi-themes · Vitesse Custom
+# pi-vitesse-custom-theme
 
-为 [Pi Coding Agent](https://pi.dev) 移植的 **Vitesse Custom** 配色主题，包含深色与浅色两套，基于个人在 Zed 中的 `vitesse-custom` 定制配色改编。
+为 [Pi Coding Agent](https://pi.dev) 移植的 **Vitesse Custom** 配色主题插件，包含深色与浅色两套，基于个人在 Zed 中的 `vitesse-custom` 定制配色改编。
+
+## 安装
+
+作为 pi 包安装：
+
+```bash
+# 本地目录
+pi install /path/to/pi-themes
+
+# 发布到 npm 后
+pi install npm:pi-vitesse-custom-theme
+```
+
+安装后通过 `pi config` 或直接改 `~/.pi/agent/settings.json` 选择主题。
 
 ## 包含的主题
 
 | 文件 | 主题名 | 适用 |
 |---|---|---|
-| `vitesse-custom-dark.json` | `vitesse-custom-dark` | 深色模式 |
-| `vitesse-custom-light.json` | `vitesse-custom-light` | 浅色模式 |
+| `themes/vitesse-custom-dark.json` | `vitesse-custom-dark` | 深色模式 |
+| `themes/vitesse-custom-light.json` | `vitesse-custom-light` | 浅色模式 |
 
-## 安装
-
-将主题文件放入 pi 的主题目录，或直接把本仓库目录加入 `themes` 配置：
-
-```bash
-# 方式一：拷贝文件
-cp vitesse-custom-*.json ~/.pi/agent/themes/
-
-# 方式二：在 settings.json 中指向本仓库目录
-# "themes": ["/path/to/pi-themes"]
-```
-
-然后在 `~/.pi/agent/settings.json` 中选择主题：
+在 `~/.pi/agent/settings.json` 中选择主题：
 
 ```json
 {
